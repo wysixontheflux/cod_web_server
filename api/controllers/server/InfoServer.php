@@ -1,6 +1,7 @@
 <?php
 
 require_once(__DIR__ . '/../../models/Database.php');
+require_once __DIR__ . '/../../autoload.php';
 
 class InfoServer extends Database
 
