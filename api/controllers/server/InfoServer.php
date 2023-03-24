@@ -1,6 +1,6 @@
 <?php
 
-require_once ('api/models/Database.php');
+require_once(__DIR__ . '/../../models/Database.php');
 
 class InfoServer extends Database
 
