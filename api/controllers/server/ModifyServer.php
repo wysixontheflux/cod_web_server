@@ -1,6 +1,8 @@
 <?php
 
-class ModifyServer extends Database
+require_once 'api/models/Database.php';
+
+class ModifyServer extends \Database\Database
 {
     private $server;
     private $server_id;

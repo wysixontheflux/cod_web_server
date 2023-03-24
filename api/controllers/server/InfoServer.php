@@ -1,5 +1,7 @@
 <?php
 
+require_once ('api/models/Database.php');
+
 class InfoServer extends Database
 
 {

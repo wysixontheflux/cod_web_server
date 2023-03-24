@@ -1,8 +1,8 @@
 <?php
 
-require_once 'api/utils/Database.php';
+require_once 'api/models/Database.php';
 
-class CreateServer extends Database
+class CreateServer extends \Database\Database
 {
     private $server;
     private $server_id;
