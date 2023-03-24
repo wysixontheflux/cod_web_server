@@ -1,6 +1,6 @@
 <?php
 
-class Server extends Database
+class InfoServer extends Database
 {
     private $server;
     private $server_id;
