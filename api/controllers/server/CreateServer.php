@@ -1,5 +1,7 @@
 <?php
 
+require_once 'api/utils/Database.php';
+
 class CreateServer extends Database
 {
     private $server;
@@ -21,7 +23,7 @@ class CreateServer extends Database
 
         $this->server = $this->connectDB();
 
-/*        $this->server_id = $this->getServerById($id);*/
+/*      $this->server_id = $this->getServerById($id);*/
 
         $this->server_name = $this->server_id['name'];
 

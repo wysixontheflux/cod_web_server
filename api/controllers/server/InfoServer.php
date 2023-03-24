@@ -1,6 +1,7 @@
 <?php
 
 class InfoServer extends Database
+
 {
     private $server;
     private $server_id;
