@@ -9,7 +9,7 @@ create table codserver (
     server_rcon varchar(255) NOT NULL,
     server_status varchar(255) NOT NULL,
     server_maxplayers int(11) NOT NULL,
-    server_map varchar(255) NOT NULL,
+/*    server_map varchar(255) NOT NULL,*/
     server_game varchar(255) NOT NULL,
     server_version varchar(255) NOT NULL,
     repository varchar(255) NOT NULL, /*Stocker le serveur dans un répertoire */
